@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://devmlops-hugo.pages.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Dev + ML + Ops'
 theme = 'ananke'

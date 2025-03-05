@@ -1,0 +1,32 @@
+<div class="cards">
+    {{ range .Site.Params.cards }}
+    <div class="card">
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+      <a href="/{{ lower (replace .title " " "-") }}/">Learn More</a>
+    </div>
+    {{ end }}
+  </div>
+  
+  <style>
+    .cards {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .card a {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #007bff;
+    }
+  </style>
+  

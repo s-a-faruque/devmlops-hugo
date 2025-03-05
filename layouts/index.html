@@ -2,14 +2,7 @@
     <div class="pa3 pa4-ns w-100 w-70-ns center">
         <section class="w-100 mw8">
             <h2>Featured Topics</h2>
-            <div class="cards">
-              {{ range .Site.Data.cards.cards }}
-              <div class="card">
-                <h3>{{ .title }}</h3>
-                <p>{{ .description }}</p>
-              </div>
-              {{ end }}
-            </div>
+            {{< cards >}}
           </section>
     </div>
     

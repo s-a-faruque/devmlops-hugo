@@ -13,7 +13,7 @@ Hosting your website for free is easier than ever with platforms like Cloudflare
 ## Cloudflare Pages
 Cloudflare Pages is a great option for deploying static sites with a global CDN.
 
-![Cloudflare Page Icon](images/cloud-flare-pages.png)
+![image](images/cloud-flare-pages.png)
 
 ### Steps to Deploy
 1. Create a Cloudflare account at [Cloudflare Pages](https://pages.cloudflare.com/).

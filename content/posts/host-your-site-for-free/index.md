@@ -2,6 +2,7 @@
 title = 'How to Host Your Site for Free'
 date = 2024-01-14T07:07:07+01:00
 draft = false
+author = Safique A Faruque
 +++
 
 Hosting your website for free is easier than ever with platforms like Cloudflare Pages, GitHub Pages, GitLab Pages, and Vercel. These services allow you to deploy static sites quickly without any cost. This guide will walk you through the setup process for each platform.

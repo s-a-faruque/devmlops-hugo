@@ -66,18 +66,10 @@ Vercel is a great option for hosting static and frontend frameworks like Next.js
 3. Click deploy and wait for the process to complete.
 4. Vercel will generate a live preview link and provide a custom domain option.
 
----
-
-## Conclusion
 Each of these platforms provides a reliable way to host your website for free. Whether you choose Cloudflare Pages for its global CDN, GitHub Pages for its simplicity, GitLab Pages for CI/CD integration, or Vercel for frontend optimization, you can easily get your site online without spending a dime.
 
----
 
-## Next Steps
-- Choose the platform that best suits your needs.
-- Customize your domain settings.
-- Optimize your site for performance and SEO.
-- Explore advanced features like automatic deployments and analytics.
+
 
 
 

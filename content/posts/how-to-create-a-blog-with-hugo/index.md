@@ -3,7 +3,6 @@ date = '2025-03-03T23:45:17-04:00'
 draft = false
 title = 'How to Create a Blog with Hugo: A Step-by-Step Guide'
 +++
-# How to Create a Blog with Hugo: A Step-by-Step Guide
 
 ## Introduction
 Hugo is a fast and flexible static site generator written in Go, perfect for creating blogs and websites. This guide will walk you through setting up a blog with Hugo, step by step.

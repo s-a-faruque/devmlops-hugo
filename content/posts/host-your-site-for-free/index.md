@@ -11,7 +11,7 @@ Want to get your website online without spending a dime? Platforms like Cloudfla
 
 ## Cloudflare Pages
 Cloudflare Pages is a great option for deploying static sites with a global CDN.
-
+<!--more-->
 ![image](images/diagram.png)
 
 ### Steps to Deploy

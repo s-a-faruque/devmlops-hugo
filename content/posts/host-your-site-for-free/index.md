@@ -1,12 +1,11 @@
 +++
-title = 'How to Host Your Site for Free'
+title = "Host Your Static Website for Free – No Hidden Costs!"
 date = 2025-03-06T07:07:07+01:00
 draft = false
-author = 'Safique A Faruque'
-featured_image: "/images/diagram.png"
+author = "Safique A Faruque"
 +++
 
-Hosting your website for free is easier than ever with platforms like Cloudflare Pages, GitHub Pages, GitLab Pages, and Vercel. These services allow you to deploy static sites quickly without any cost. This guide will walk you through the setup process for each platform.
+Want to get your website online without spending a dime? Platforms like Cloudflare Pages, GitHub Pages, and Vercel make it easier than ever to host your site for free. In this guide, you'll learn how to set up your website quickly and effortlessly — no hidden fees, no hassle!
 
 ---
 
@@ -19,7 +18,7 @@ Cloudflare Pages is a great option for deploying static sites with a global CDN.
 1. Create a Cloudflare account at [Cloudflare Pages](https://pages.cloudflare.com/).
 2. Connect your GitHub or GitLab repository.
 3. Select the repository containing your site.
-4. Configure the build settings (for example, use `npm run build` for Next.js or `hugo` for Hugo sites).
+4. Configure the build settings if you use any static site generator (for example, use `npm run build` for Next.js or `hugo` for Hugo sites).
 5. Click deploy and wait for the build to complete.
 6. Your site will be live with a Cloudflare-provided subdomain.
 

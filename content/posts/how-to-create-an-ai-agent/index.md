@@ -1,10 +1,8 @@
 +++
-title = 'AI Agents'
+title = 'How to Create Your First AI Agent'
 date = 2024-01-14T07:07:07+01:00
 draft = false
 +++
-
-# How to Create Your First AI Agent
 
 Artificial Intelligence (AI) agents are transforming industries by automating tasks, providing intelligent recommendations, and enhancing user experiences. Creating your own AI agent might seem complex, but with the right approach, you can build one even if you're a beginner. This article will guide you through the process step-by-step.
 

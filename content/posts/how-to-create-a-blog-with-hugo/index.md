@@ -1,7 +1,14 @@
 +++
-date = '2025-03-03T23:45:17-04:00'
+date = "2025-03-03T23:45:17-04:00"
 draft = false
-title = 'How to Create a Blog with Hugo: A Step-by-Step Guide'
+title = "How to Create a Blog with Hugo: A Step-by-Step Guide"
+description = "Learn how to set up and deploy a Hugo blog step-by-step. This guide covers installation, themes, content creation, and deployment options like GitHub Pages and Netlify."
+author = "Safique A Faruque"
+tags = ["Hugo", "Static Site", "Blogging", "Web Development", "Tutorial"]
+categories = ["Web Development", "Static Site Generators"]
+slug = "create-a-blog-with-hugo"
+keywords = ["Hugo tutorial", "Hugo blog setup", "Hugo themes", "Hugo deployment", "Static site generator"]
+featured_image = "/images/hugo-blog-guide.png"
 +++
 
 ## Introduction

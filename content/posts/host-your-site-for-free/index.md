@@ -3,6 +3,13 @@ title = "Host Your Static Website for Free – No Hidden Costs!"
 date = 2025-03-06T07:07:07+01:00
 draft = false
 author = "Safique A Faruque"
+description = "Learn how to host your static website for free using Cloudflare Pages, GitHub Pages, GitLab Pages, and Vercel. Step-by-step guide with no hidden costs!"
+tags = ["free website hosting", "static site hosting", "deploy website for free", "Cloudflare Pages", "GitHub Pages", "GitLab Pages", "Vercel"]
+categories = ["Web Development", "Hosting", "Static Sites"]
+keywords = ["free hosting platforms", "best static site hosting", "GitHub Pages tutorial", "Vercel vs Cloudflare Pages"]
+slug = "free-static-website-hosting"
+image = "images/diagram.png"
+canonicalURL = "https://devmlops.com/free-static-website-hosting"
 +++
 
 Want to get your website online without spending a dime? Platforms like Cloudflare Pages, GitHub Pages, and Vercel make it easier than ever to host your site for free. In this guide, you'll learn how to set up your website quickly and effortlessly — no hidden fees, no hassle!

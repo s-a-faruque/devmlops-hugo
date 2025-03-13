@@ -4,8 +4,8 @@ date = 2025-03-06T07:07:07+01:00
 draft = false
 author = "Safique A Faruque"
 description = "Learn how to structure your Git commit messages using conventions like Conventional Commits and Angular Commit Convention consistency, and automation."
-tags: ["git", "commit-convention", "best-practices", "development"]
-categories: ["Development", "Version Control"]
+tags = ["git", "commit-convention", "best-practices", "development"]
+categories = ["Development", "Version Control"]
 keywords = ["free hosting platforms", "best static site hosting", "GitHub Pages tutorial", "Vercel vs Cloudflare Pages"]
 slug = "git-commit-convention"
 canonicalURL = "https://devmlops.com/git-commit-convention"

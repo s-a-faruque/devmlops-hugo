@@ -1,3 +1,14 @@
++++
+title = "Quantifying the Business Value of Paying Off Tech Debt"
+date = "2025-03-13"
+author = "Safique"
+description = "A hypothesis to determine the business value of working on tech debt and how it can improve development velocity and product performance."
+categories = ["Software Development", "Agile", "Technical Debt"]
+tags = ["Tech Debt", "Agile", "Sprint Planning", "Business Value", "Software Metrics"]
+draft = false
++++
+
+
 It’s a very common scenario — The product owner chooses new features regularly and seldom picks tech debt. In the end, the crashes have to be fixed, and the tech debt is growing. Those problems are slowing down testing and development._
 
 _Besides, the team have new great ideas to optimize the software, but the product owner has difficulty to estimate their values, and priorities them._

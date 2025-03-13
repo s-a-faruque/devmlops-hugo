@@ -1,16 +1,11 @@
-
----
++++
 title = "Calling an API Using Microsoft Forms and Power Automate"
 description = "Learn how to use Microsoft Forms and Power Automate to collect responses and trigger an API call."
 author = "Safique"
 date = "2025-03-13"
 tags = ["Microsoft Forms", "Power Automate", "API Integration", "Automation"]
 categories = ["Automation", "Microsoft Power Platform"]
----
-
-Calling an API Using Microsoft Forms and Power Automate
-
-Introduction
++++
 
 Microsoft Forms is a simple way to collect user input, and Power Automate can process that data by triggering API calls. This guide will walk you through the process of capturing responses from a Microsoft Form and sending them to an external API.
 
@@ -56,7 +51,5 @@ Step 5: Test and Deploy
 	1.	Click Save and then Test the flow.
 	2.	Submit a response in Microsoft Forms and check if the API receives the data.
 	3.	Monitor the flow execution under Flow Runs.
-
-Conclusion
 
 By integrating Microsoft Forms with Power Automate, you can easily automate API calls, enabling seamless data collection and processing. This approach is useful for lead collection, feedback management, and various other business workflows.

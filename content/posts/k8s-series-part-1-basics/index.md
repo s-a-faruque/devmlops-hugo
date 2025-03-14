@@ -40,11 +40,7 @@ Each Worker Node runs application workloads and contains these essential compone
 	* Manages network rules and ensures communication between pods and services.
 3. Container Runtime 
     * Executes containers. 
-    Common runtimes include:
-	    * Docker
-	    * containerd
-	    * CRI-O
-	    * 
+    Common runtimes include - Docker, containerd, CRI-O
 ### Kubernetes Networking
 * Each pod gets a unique IP address.
 * Uses CNI (Container Network Interface) plugins such as Calico, Flannel, or Cilium.

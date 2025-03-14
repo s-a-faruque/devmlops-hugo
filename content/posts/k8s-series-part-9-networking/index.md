@@ -4,7 +4,7 @@ date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "Networking", "Services", "Ingress", "Network Policies"]
-draft = false
+draft = true
 description = "Understand Kubernetes networking, including Services, Ingress, and Network Policies."
 +++
 

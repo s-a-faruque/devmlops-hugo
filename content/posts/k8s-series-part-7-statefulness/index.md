@@ -4,7 +4,7 @@ date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "StatefulSets", "DaemonSets", "Workloads"]
-draft = false
+draft = true
 description = "Learn how Kubernetes manages stateful applications with StatefulSets and ensures node-specific workloads using DaemonSets."
 +++
 

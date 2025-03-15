@@ -8,7 +8,7 @@ draft = true
 description = "Learn how CI/CD and GitOps help automate Kubernetes deployments using Helm, Kustomize, ArgoCD, FluxCD, and CI/CD tools like Jenkins, Tekton, and GitHub Actions."
 +++
 
-## **Introduction**  
+### Introduction
 
 Continuous Integration (CI) and Continuous Deployment (CD) are critical for modern DevOps workflows. Kubernetes (K8s) integrates well with CI/CD pipelines, allowing automated application deployments. **GitOps** takes this further by using **Git as the single source of truth** for Kubernetes infrastructure and application configurations.
 
@@ -19,7 +19,7 @@ This article covers:
 
 ---
 
-## **1. Helm - The Kubernetes Package Manager**  
+### 1. Helm - The Kubernetes Package Manager
 
 [Helm](https://helm.sh/) simplifies Kubernetes application deployment using **charts** (predefined YAML templates). It provides:
 - Version control for Kubernetes applications.

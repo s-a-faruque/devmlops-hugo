@@ -2,4 +2,3 @@ baseURL = 'https://devmlops-hugo.pages.dev/'
 languageCode = 'en-us'
 title = 'Dev + ML + Ops'
 theme = 'ananke'
-googleAnalyticsID = "G-JBCMXLR46W"

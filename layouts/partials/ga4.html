@@ -1,9 +1,11 @@
 {{ if hugo.IsProduction }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.ga4_id }}"></script>
-  <script>
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBCMXLR46W"></script>
+    <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '{{ .Site.Params.ga4_id }}');
-  </script>
+
+    gtag('config', 'G-JBCMXLR46W');
+    </script>
 {{ end }}

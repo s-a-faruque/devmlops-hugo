@@ -3,3 +3,10 @@ languageCode = 'en-us'
 title = 'Dev + ML + Ops'
 theme = 'ananke'
 ga4_id = 'G-JBCMXLR46W'
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "All Posts"
+    url = "/posts/"
+    weight = 3

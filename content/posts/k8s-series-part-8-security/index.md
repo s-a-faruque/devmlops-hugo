@@ -4,7 +4,7 @@ date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "RBAC", "Security", "K8s"]
-draft = false
+draft = true
 description = "Learn how Kubernetes RBAC manages access to resources, with examples of roles and permissions."
 +++
 ### **Introduction**  

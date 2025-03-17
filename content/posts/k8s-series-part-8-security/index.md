@@ -4,17 +4,17 @@ date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "RBAC", "Security", "K8s"]
-draft = true
+draft = false
 description = "Learn how Kubernetes RBAC manages access to resources, with examples of roles and permissions."
 +++
-### **Introduction**  
+
 In Kubernetes, securing your cluster and resources is paramount. **Role-Based Access Control (RBAC)** is a powerful tool for controlling access within Kubernetes. It allows administrators to define roles with specific permissions, ensuring that users or services can only access the resources they need.  
 
 In this article, we'll dive into the key components of Kubernetes RBAC and explore how to implement security effectively.
 
 ---
 
-## **1. Key RBAC Components**
+#### Key RBAC Components
 
 Kubernetes RBAC uses the following resources:  
 1. **Roles** – Defines a set of permissions for resources within a namespace.  
@@ -24,7 +24,7 @@ Kubernetes RBAC uses the following resources:
 
 ---
 
-## **2. Creating Roles and ClusterRoles**
+#### Creating Roles and ClusterRoles
 
 A **Role** is used to define access to resources within a specific namespace, while a **ClusterRole** is used to define cluster-wide access.
 
@@ -61,11 +61,11 @@ This **ClusterRole** grants full permissions on all resources cluster-wide.
 
 ---
 
-## **3. Binding Roles to Users or Service Accounts**
+#### Binding Roles to Users or Service Accounts
 
 Once roles are created, they need to be assigned to users or service accounts. This is done via **RoleBindings** or **ClusterRoleBindings**.
 
-#### Example: Binding the `pod-reader` Role to a User
+##### Example: Binding the `pod-reader` Role to a User
 ```yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
@@ -86,7 +86,7 @@ This binds the `pod-reader` role to the user `john`.
 
 ---
 
-## **4. Best Practices for Kubernetes Security**
+#### 4. Best Practices for Kubernetes Security
 
 - **Principle of Least Privilege:** Always grant the minimal set of permissions needed for a user or service to operate.  
 - **Use Service Accounts:** Instead of binding users directly, bind **service accounts** to roles for better control.  

@@ -9,8 +9,8 @@ description = "Learn how to manage configuration data securely in Kubernetes usi
 +++
 
 Applications running in Kubernetes often require configuration settings such as database URLs, API keys, and environment variables. Kubernetes provides two key resources for managing this configuration data:
-	1.	ConfigMaps – Store non-sensitive configuration data like environment variables and configuration files.
-	2.	Secrets – Store sensitive information like passwords, tokens, and certificates securely.
+1. ConfigMaps – Store non-sensitive configuration data like environment variables and configuration files.
+2. Secrets – Store sensitive information like passwords, tokens, and certificates securely.
 
 #### What is a ConfigMap?
 
@@ -41,7 +41,9 @@ Using kubectl CLI:
 ```
 kubectl create configmap app-config --from-literal=APP_ENV=production --from-literal=DATABASE_URL=postgres://db-service:5432/mydb
 ```
-##### Using ConfigMap in a Pod
+
+Using ConfigMap in a Pod
+
 ```
 apiVersion: v1
 kind: Pod

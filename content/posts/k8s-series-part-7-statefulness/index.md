@@ -4,31 +4,29 @@ date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "StatefulSets", "DaemonSets", "Workloads"]
-draft = true
+draft = false
 description = "Learn how Kubernetes manages stateful applications with StatefulSets and ensures node-specific workloads using DaemonSets."
 +++
 
-Introduction
-
 Kubernetes workloads are typically managed using Deployments, which handle stateless applications. However, some applications require stable network identities or storage persistence, while others must run on every node in the cluster.
 
-✅ StatefulSets are used for stateful applications like databases.
-✅ DaemonSets are used for node-specific workloads like logging and monitoring agents.
+* StatefulSets are used for stateful applications like databases.
+* DaemonSets are used for node-specific workloads like logging and monitoring agents.
 
 In this article, we’ll explore both in detail.
 
 1. Kubernetes StatefulSets
 
 A StatefulSet is a Kubernetes resource designed for stateful applications where each pod:
-✔️ Has a stable hostname and persistent storage.
-✔️ Maintains ordering and identity when scaling or restarting.
-✔️ Is created sequentially (not in parallel like Deployments).
+* Has a stable hostname and persistent storage.
+* Maintains ordering and identity when scaling or restarting.
+* Is created sequentially (not in parallel like Deployments).
 
 Use Cases for StatefulSets
 
-✅ Databases (e.g., MySQL, PostgreSQL, MongoDB).
-✅ Distributed applications (e.g., Kafka, Elasticsearch, Zookeeper).
-✅ Applications needing stable network identifiers.
+* Databases (e.g., MySQL, PostgreSQL, MongoDB).
+* Distributed applications (e.g., Kafka, Elasticsearch, Zookeeper).
+* Applications needing stable network identifiers.
 
 2. Deploying a StatefulSet
 
@@ -68,9 +66,9 @@ spec:
 
 Key Features in the Above StatefulSet:
 
-✔️ Pods have stable hostnames (mysql-0, mysql-1, mysql-2).
-✔️ Each pod gets a separate storage volume (volumeClaimTemplates).
-✔️ Pods start one at a time in order (mysql-0 → mysql-1 → mysql-2).
+* Pods have stable hostnames (mysql-0, mysql-1, mysql-2).
+* Each pod gets a separate storage volume (volumeClaimTemplates).
+* Pods start one at a time in order (mysql-0 → mysql-1 → mysql-2).
 
 3. Scaling a StatefulSet
 
@@ -95,9 +93,9 @@ A DaemonSet ensures that a specific pod runs on every node in the cluster. It au
 
 Use Cases for DaemonSets
 
-✅ Logging agents (e.g., Fluentd, Logstash).
-✅ Monitoring agents (e.g., Prometheus Node Exporter).
-✅ Networking components (e.g., CNI plugins).
+* Logging agents (e.g., Fluentd, Logstash).
+* Monitoring agents (e.g., Prometheus Node Exporter).
+* Networking components (e.g., CNI plugins).
 
 6. Deploying a DaemonSet
 
@@ -129,9 +127,9 @@ spec:
 
 Key Features of DaemonSets:
 
-✔️ Each node gets exactly one Fluentd pod.
-✔️ Automatically adds pods when new nodes join the cluster.
-✔️ Uses hostPath to access node logs.
+* Each node gets exactly one Fluentd pod.
+* Automatically adds pods when new nodes join the cluster.
+* Uses hostPath to access node logs.
 
 7. Managing a DaemonSet
 

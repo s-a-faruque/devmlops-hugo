@@ -12,12 +12,12 @@ In Kubernetes, Pods are ephemeral, meaning they can be created and destroyed dyn
 
 A Service exposes a set of Pods using a stable IP and DNS name, ensuring reliable networking within and outside the cluster.
 
-1. Why Do We Need Kubernetes Services?
+Why Do We Need Kubernetes Services?
 * Pods have dynamic IP addresses that change when restarted.
 * Services provide a fixed virtual IP (VIP) that remains stable.
 * Services enable load balancing across multiple pod instances.
 
-2. Types of Kubernetes Services
+#### Types of Kubernetes Services
 
 Kubernetes provides four main types of services:
 
@@ -27,7 +27,7 @@ NodePort	External	Exposes a service on each node’s IP at a static port.
 LoadBalancer	External	Uses cloud provider’s load balancer to expose the service.
 ExternalName	External	Maps a Kubernetes service to an external domain name.
 
-3. ClusterIP Service (Default Type)
+#### ClusterIP Service (Default Type)
 
 ClusterIP is the default Kubernetes service type. It assigns a virtual IP that is accessible only within the cluster.
 
@@ -61,7 +61,7 @@ Access it inside the cluster:
 ```
 curl http://my-clusterip-service:80
 ```
-4. NodePort Service
+#### NodePort Service
 
 A NodePort service exposes the application on a static port on each worker node’s IP.
 
@@ -93,7 +93,7 @@ Access it externally:
 ```
 curl http://<NODE-IP>:30007
 ```
-5. LoadBalancer Service
+#### LoadBalancer Service
 
 A LoadBalancer service provisions a cloud provider’s load balancer (AWS, Azure, GCP) to expose the service externally.
 
@@ -128,7 +128,8 @@ Access it using the assigned external IP:
 ```
 curl http://<EXTERNAL-IP>
 ```
-6. ExternalName Service
+
+#### ExternalName Service
 
 An ExternalName service maps a Kubernetes service to an external domain name instead of routing traffic to pods.
 
@@ -151,7 +152,7 @@ curl http://my-externalname-service
 ```
 This redirects traffic to api.example.com.
 
-7. Choosing the Right Service Type
+#### Choosing the Right Service Type
 
 Scenario	Recommended Service
 Internal pod-to-pod communication	ClusterIP

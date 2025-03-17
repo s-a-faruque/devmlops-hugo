@@ -36,17 +36,17 @@ Run the pod with:
 ```
 kubectl apply -f pod.yaml
 ```
-2. What is a Deployment?
+#### 2. What is a Deployment?
 
 A Deployment manages the lifecycle of a pod and ensures high availability. It handles rolling updates, rollbacks, and scaling.
 
 Key Features of a Deployment:
-	•	Ensures a specific number of replicas are running.
-	•	Handles updates and rollbacks automatically.
-	•	Uses ReplicaSets internally to maintain desired pod count.
+* Ensures a specific number of replicas are running.
+* Handles updates and rollbacks automatically.
+* Uses ReplicaSets internally to maintain desired pod count.
 
 Example: A Simple Deployment
-
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -66,21 +66,21 @@ spec:
           image: nginx:latest
           ports:
             - containerPort: 80
-
+```
 Apply the deployment:
-
+```
 kubectl apply -f deployment.yaml
-
+```
 Check the status:
-
+```
 kubectl get deployments
-
-3. What is a ReplicaSet?
+```
+#### 3. What is a ReplicaSet?
 
 A ReplicaSet ensures that a specific number of pod replicas are running at all times. Deployments use ReplicaSets internally to manage pods.
 
 Example: A ReplicaSet Configuration
-
+```
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
@@ -100,12 +100,12 @@ spec:
           image: nginx:latest
           ports:
             - containerPort: 80
-
+```
 Run the ReplicaSet:
-
+```
 kubectl apply -f replicaset.yaml
-
-4. Key Differences: Pods vs. Deployments vs. ReplicaSets
+```
+#### Key Differences: Pods vs. Deployments vs. ReplicaSets
 
 Feature	Pod	ReplicaSet	Deployment
 Purpose	Runs a single container or a group of containers	Ensures a fixed number of pods are running	Manages ReplicaSets for scaling and rolling updates
@@ -113,10 +113,10 @@ Scaling	Cannot scale automatically	Ensures desired pod count	Provides advanced s
 Rolling Updates	No	No	Yes
 Rollbacks	No	No	Yes
 
-5. When to Use What?
-	•	Use Pods for single-container applications or debugging.
-	•	Use ReplicaSets if you need to maintain a fixed number of replicas.
-	•	Use Deployments for real-world applications that require rolling updates and scaling.
+#### When to Use What?
+* Use Pods for single-container applications or debugging.
+* Use ReplicaSets if you need to maintain a fixed number of replicas.
+* Use Deployments for real-world applications that require rolling updates and scaling.
 
 
 Pods, Deployments, and ReplicaSets are essential for running applications in Kubernetes. Deployments provide a higher level of control, making them the best choice for managing application lifecycles.

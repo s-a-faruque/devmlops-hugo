@@ -4,18 +4,17 @@ date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "Networking", "Services", "Ingress", "Network Policies"]
-draft = true
+draft = false
 description = "Understand Kubernetes networking, including Services, Ingress, and Network Policies."
 +++
 
-### **Introduction**  
 Kubernetes networking is essential for communication between pods, services, and external clients. It enables pods to discover and communicate with each other dynamically while maintaining security and performance.
 
 In this article, we will explore Kubernetes networking concepts, including **Services, Ingress, and Network Policies**, to help you manage traffic efficiently.
 
 ---
 
-## **1. Kubernetes Networking Model**  
+#### Kubernetes Networking Model
 
 Kubernetes follows a flat networking model where:  
 - Every pod gets its own **unique IP address**.  
@@ -26,17 +25,17 @@ To enable efficient communication, Kubernetes uses various networking components
 
 ---
 
-## **2. Kubernetes Services**  
+#### Kubernetes Services
 
 A Kubernetes **Service** provides a stable IP and DNS name for accessing a group of pods. It ensures reliable communication even if pod IPs change.
 
-### **Types of Services**  
+#### **Types of Services**  
 1. **ClusterIP (Default)** – Exposes the service internally within the cluster.  
 2. **NodePort** – Exposes the service externally on a static port of each node.  
 3. **LoadBalancer** – Uses an external load balancer (cloud provider specific).  
 4. **ExternalName** – Maps a service to an external domain.
 
-### **Example: Creating a ClusterIP Service**  
+#### Example: Creating a ClusterIP Service
 ```yaml
 apiVersion: v1
 kind: Service
@@ -56,16 +55,16 @@ This exposes `my-app` internally on **port 80**, forwarding traffic to **port 80
 
 ---
 
-## **3. Kubernetes Ingress**  
+#### Kubernetes Ingress
 
 An **Ingress** is an API object that manages external access to services, usually via HTTP/HTTPS.
 
-### **Key Features of Ingress:**  
+#### **Key Features of Ingress:
 - Routes external requests to internal services.  
 - Supports SSL/TLS termination.  
 - Can perform path-based and host-based routing.
 
-### **Example: Creating an Ingress Resource**  
+#### **Example: Creating an Ingress Resource**  
 ```yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
@@ -90,7 +89,7 @@ This routes `example.com/app` requests to `my-service` inside the cluster.
 
 ---
 
-## **4. Network Policies**  
+#### Network Policies
 
 **Network Policies** control how pods communicate with each other and external entities. They act as **firewall rules** for Kubernetes networking.
 
@@ -120,7 +119,7 @@ This policy allows only **frontend** pods to access **web** pods on port **80**.
 
 ---
 
-## **5. Best Practices for Kubernetes Networking**  
+#### Best Practices for Kubernetes Networking
 
 - **Use ClusterIP for internal services** to reduce exposure.  
 - **Use Ingress with TLS encryption** for security.  

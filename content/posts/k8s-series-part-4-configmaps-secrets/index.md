@@ -3,7 +3,7 @@ title = "Managing Kubernetes ConfigMaps and Secrets"
 date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
-tags = ["Kubernetes", "K8s", "ConfigMaps", "DevOps" "Secrets", "Configuration Management"]
+tags = ["Kubernetes", "K8s", "ConfigMaps", "DevOps", "Secrets", "Configuration Management"]
 draft = false
 description = "Learn how to manage configuration data securely in Kubernetes using ConfigMaps and Secrets."
 +++

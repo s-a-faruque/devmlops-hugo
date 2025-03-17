@@ -3,26 +3,24 @@ title = "Understanding Kubernetes Pods, Deployments, and ReplicaSets"
 date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
-tags = ["Kubernetes", "K8s", "Pods", "Deployments", "ReplicaSets"]
+tags = ["Kubernetes", "K8s", "DevOps", "Pods", "Deployments", "ReplicaSets"]
 draft = false
 description = "Learn about Kubernetes Pods, Deployments, and ReplicaSets, their roles, and how they work together in container orchestration."
 +++
 
-Introduction
-
 Kubernetes manages containerized applications using fundamental building blocks like Pods, Deployments, and ReplicaSets. These concepts enable scalable, resilient, and automated deployments.
 
-1. What is a Pod?
+#### What is a Pod?
 
 A Pod is the smallest deployable unit in Kubernetes. It represents one or more containers that share the same network namespace and storage.
 
 Key Features of a Pod:
-	•	Can contain one or multiple containers.
-	•	Shares network and storage among containers in the pod.
-	•	Has a unique IP address inside the cluster.
+* Can contain one or multiple containers.
+* Shares network and storage among containers in the pod.
+* Has a unique IP address inside the cluster.
 
 Example: A Simple Pod Manifest
-
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -33,11 +31,11 @@ spec:
       image: nginx:latest
       ports:
         - containerPort: 80
-
+```
 Run the pod with:
-
+```
 kubectl apply -f pod.yaml
-
+```
 2. What is a Deployment?
 
 A Deployment manages the lifecycle of a pod and ensures high availability. It handles rolling updates, rollbacks, and scaling.

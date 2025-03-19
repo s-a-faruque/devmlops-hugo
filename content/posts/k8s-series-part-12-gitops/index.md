@@ -197,11 +197,11 @@ jobs:
 
 ## **5. Best Practices for Kubernetes CI/CD and GitOps**  
 
-✅ **Use Helm or Kustomize** for managing configurations efficiently.  
-✅ **Adopt GitOps** (ArgoCD or FluxCD) for declarative deployments.  
-✅ **Automate CI/CD pipelines** with Jenkins, Tekton, or GitHub Actions.  
-✅ **Ensure security** by restricting access to secrets and Kubernetes clusters.  
-✅ **Monitor deployments** using Prometheus, Grafana, or Kubernetes Events.
+* **Use Helm or Kustomize** for managing configurations efficiently.  
+* **Adopt GitOps** (ArgoCD or FluxCD) for declarative deployments.  
+* **Automate CI/CD pipelines** with Jenkins, Tekton, or GitHub Actions.  
+* **Ensure security** by restricting access to secrets and Kubernetes clusters.  
+* **Monitor deployments** using Prometheus, Grafana, or Kubernetes Events.
 
 ---
 

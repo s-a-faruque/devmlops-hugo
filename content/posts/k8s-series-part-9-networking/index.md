@@ -11,7 +11,7 @@ description = "Understand Kubernetes networking, including Services, Ingress, an
 Kubernetes networking is essential for communication between pods, services, and external clients. It enables pods to discover and communicate with each other dynamically while maintaining security and performance.
 
 In this article, we will explore Kubernetes networking concepts, including **Services, Ingress, and Network Policies**, to help you manage traffic efficiently.
-
+<!--more-->
 ---
 
 #### Kubernetes Networking Model

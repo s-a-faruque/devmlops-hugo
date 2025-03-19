@@ -2,7 +2,7 @@
 title = "Calling an API Using Microsoft Forms and Power Automate"
 description = "Learn how to use Microsoft Forms and Power Automate to collect responses and trigger an API call."
 author = "Safique"
-draft = true
+draft = false
 date = "2025-03-13"
 tags = ["Microsoft Forms", "Power Automate", "API Integration", "Automation"]
 categories = ["Automation", "Microsoft Power Platform"]

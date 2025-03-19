@@ -5,7 +5,7 @@ author = "Safique"
 description = "Learn about Helm charts, their components, and how to use them for Kubernetes deployments with practical examples."
 tags = ["Helm", "Kubernetes", "DevOps", "Deployment"]
 categories = ["DevOps", "Kubernetes"]
-draft = true
+draft = false
 +++
 
 Helm is a powerful package manager for Kubernetes that simplifies the deployment, management, and scaling of applications. Instead of manually defining complex Kubernetes YAML files, you can use **Helm charts**, which provide a structured and reusable way to deploy applications.  

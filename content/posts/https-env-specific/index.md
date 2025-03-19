@@ -4,15 +4,14 @@ date = "2025-03-13"
 author = "Safique"
 tags = ["HTTPS", "SSL", "TLS", "Web Security", "Local Development", "Production Deployment"]
 description = "Learn how HTTPS works and how to set it up for local development, testing, and production environments."
+draft = false
 +++
 
-Understanding HTTPS: How It Works and How to Set It Up Locally, in Test, and in Production
-
-### What is HTTPS?
 
 HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP, the protocol used for communication between a web browser and a web server. It ensures that all data exchanged is encrypted, maintaining confidentiality and integrity.
 
-### How HTTPS Works
+<!--more-->
+#### How HTTPS Works
 1. TLS/SSL Encryption
 HTTPS uses TLS (Transport Layer Security) or its predecessor SSL (Secure Sockets Layer) to encrypt communication. This prevents eavesdropping and tampering.
 2. Public Key Infrastructure (PKI)

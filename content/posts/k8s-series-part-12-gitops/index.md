@@ -4,7 +4,7 @@ date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes", "DevOps"]
 tags = ["Kubernetes", "CI/CD", "GitOps", "Helm", "Kustomize", "ArgoCD", "FluxCD", "Jenkins", "Tekton", "GitHub Actions"]
-draft = true
+draft = false
 description = "Learn how CI/CD and GitOps help automate Kubernetes deployments using Helm, Kustomize, ArgoCD, FluxCD, and CI/CD tools like Jenkins, Tekton, and GitHub Actions."
 +++
 

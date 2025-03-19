@@ -4,7 +4,7 @@ date = "2025-03-14"
 author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "Storage", "Volumes", "Persistent Volumes"]
-draft = true
+draft = false
 description = "Learn how Kubernetes handles storage using Volumes, Persistent Volumes (PVs), and Persistent Volume Claims (PVCs)."
 +++
 

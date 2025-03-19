@@ -8,21 +8,19 @@ draft = true
 description = "Learn how networking works in Kubernetes, including Services, Ingress Controllers, and how to expose applications."
 +++
 
-Introduction
-
 Kubernetes networking enables communication between pods, services, and external clients. It ensures connectivity, scalability, and security for applications running inside a cluster.
 
 In this article, we will cover:
 	1.	Pod-to-Pod communication
 	2.	Services for exposing applications
 	3.	Ingress Controllers for managing external access
-
+<!--more-->
 1. How Kubernetes Networking Works
 
 Unlike traditional networks, Kubernetes follows a flat networking model, where:
-✅ Every pod gets a unique IP address.
-✅ Pods can communicate with each other without NAT (Network Address Translation).
-✅ Services provide a stable endpoint to expose pods to internal or external users.
+* Every pod gets a unique IP address.
+* Pods can communicate with each other without NAT (Network Address Translation).
+* Services provide a stable endpoint to expose pods to internal or external users.
 
 Kubernetes networking is designed to be highly scalable and works across different cloud providers and on-premise clusters.
 

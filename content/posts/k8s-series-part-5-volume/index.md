@@ -8,8 +8,6 @@ draft = true
 description = "Learn how Kubernetes handles storage using Volumes, Persistent Volumes (PVs), and Persistent Volume Claims (PVCs)."
 +++
 
-Introduction
-
 Containers are ephemeral by nature, meaning data stored inside them disappears when a pod is restarted. To persist data in Kubernetes, we use Volumes and Persistent Volumes.
 
 1. Kubernetes Volumes: Basics

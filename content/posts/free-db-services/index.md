@@ -9,9 +9,8 @@ description = "A guide to four popular free database services—Supabase, Neon, 
 +++
 
 
-**Exploring Free Database Services: Supabase, Neon, Xata, and Vercel Free DB**
-
 In today’s fast-paced world of web development, databases are crucial for managing and storing data. However, setting up and maintaining a database can be expensive, especially for small projects, personal websites, or startups looking to keep costs down. Thankfully, several services offer **free databases** with great features to help developers get started without spending a dime. In this article, we’ll dive into four popular free database services: **Supabase**, **Neon**, **Xata**, and **Vercel Free DB**.
+<!--more-->
 
 ### 1. **Supabase: The Open-Source Firebase Alternative**
 

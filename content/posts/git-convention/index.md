@@ -11,11 +11,6 @@ slug = "git-commit-convention"
 canonicalURL = "https://devmlops.com/git-commit-convention"
 +++
 
-
-Git Commit Convention: A Guide to Writing Meaningful Commit Messages
-
-Introduction
-
 In software development, version control is crucial for tracking changes and collaborating effectively. Git, one of the most widely used version control systems, allows developers to commit changes with messages that describe what was modified. However, without a proper structure, commit messages can become inconsistent, unclear, or even useless.
 
 A Git Commit Convention provides a standardized way to write commit messages, making them more readable, understandable, and useful for developers, reviewers, and future maintainers.

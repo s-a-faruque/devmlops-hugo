@@ -8,11 +8,13 @@ draft = true
 description = "Explore how to implement Kubernetes monitoring and logging with popular tools like Prometheus, Grafana, and ELK stack."
 +++
 
-Introduction
-
 Monitoring and logging are essential components for maintaining healthy Kubernetes environments. Prometheus, Grafana, and the ELK stack are commonly used tools to collect, store, and visualize metrics and logs in Kubernetes.
 
 In this article, we'll look at the basics of Kubernetes monitoring and logging and explore how to set up these tools.
+* Kubernetes Monitoring with Prometheus
+* Visualizing Metrics with Grafana
+* Centralized Logging with the ELK Stack
+<!--more-->
 1. Kubernetes Monitoring with Prometheus
 
 Prometheus is an open-source tool designed for monitoring and alerting. It scrapes metrics from Kubernetes components and stores them in a time-series database.

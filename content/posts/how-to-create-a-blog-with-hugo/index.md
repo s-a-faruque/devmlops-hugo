@@ -11,19 +11,18 @@ keywords = ["Hugo tutorial", "Hugo blog setup", "Hugo themes", "Hugo deployment"
 featured_image = "/images/hugo-blog-guide.png"
 +++
 
-## Introduction
 Hugo is a fast and flexible static site generator written in Go, perfect for creating blogs and websites. This guide will walk you through setting up a blog with Hugo, step by step.
 
 ---
 
-## Prerequisites
+#### Prerequisites
 Before starting, ensure you have the following:
 - A computer with Windows, macOS, or Linux
 - Go installed (optional but recommended)
 - Git installed
 - A text editor (VS Code, Sublime Text, etc.)
 - A GitHub account (optional for deployment)
-
+<!--more-->
 ---
 
 ## Step 1: Install Hugo

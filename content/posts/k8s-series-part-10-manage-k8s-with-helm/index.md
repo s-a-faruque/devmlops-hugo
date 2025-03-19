@@ -8,8 +8,6 @@ categories = ["DevOps", "Kubernetes"]
 draft = true
 +++
 
-## Introduction  
-
 Helm is a powerful package manager for Kubernetes that simplifies the deployment, management, and scaling of applications. Instead of manually defining complex Kubernetes YAML files, you can use **Helm charts**, which provide a structured and reusable way to deploy applications.  
 
 In this guide, we will explore:  
@@ -18,7 +16,7 @@ In this guide, we will explore:
 - Their key components  
 - How to create and deploy a Helm chart  
 - A practical example  
-
+<!--more-->
 ## What is a Helm Chart?  
 
 A **Helm chart** is a package that contains all the necessary Kubernetes resources to deploy an application. It includes metadata, default configurations, and templates for Kubernetes objects such as Deployments, Services, and ConfigMaps.  

@@ -7,13 +7,10 @@ tags = ["AI Search", "NLP", "Elasticsearch", "Semantic Search"]
 draft = false
 +++
 
-# How to Build an AI-Based Search System
-
-## Introduction
 
 In today’s digital landscape, AI-powered search systems are transforming how users interact with vast amounts of data. Whether you’re building a search engine for a website, an enterprise knowledge base, or an e-commerce platform, AI can enhance search relevance, understand natural language queries, and provide personalized results. This article explores the steps to build an AI-based search system.
-
-## Step 1: Define Your Search Requirements
+<!--more-->
+#### Step 1: Define Your Search Requirements
 
 Before diving into implementation, outline the specific requirements of your search system:
 - **Data Source**: Identify whether your search system will index structured (databases, CSVs) or unstructured data (documents, web pages).
@@ -21,7 +18,7 @@ Before diving into implementation, outline the specific requirements of your sea
 - **User Intent**: Determine whether users will perform keyword searches or ask natural language questions.
 - **Personalization**: Consider if the system should tailor results based on user preferences.
 
-## Step 2: Choose the Right AI Technologies
+#### Step 2: Choose the Right AI Technologies
 
 An AI-based search system relies on multiple technologies. Below are key components:
 

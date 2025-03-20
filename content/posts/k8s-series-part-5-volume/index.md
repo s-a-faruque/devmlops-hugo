@@ -25,7 +25,7 @@ persistentVolumeClaim	Connects to a Persistent Volume (PV) for long-term storage
 2. Example: Using an emptyDir Volume
 
 An emptyDir volume is created when the pod starts and deleted when the pod stops.
-
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -41,11 +41,11 @@ spec:
   volumes:
     - name: my-volume
       emptyDir: {}
-
+```
 Apply the configuration:
-
+```
 kubectl apply -f emptydir-pod.yaml
-
+```
 3. Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)
 
 A Persistent Volume (PV) is a cluster-wide storage resource. A Persistent Volume Claim (PVC) requests storage from a PV.
@@ -55,7 +55,7 @@ Storage Classes:
 Kubernetes supports dynamic storage provisioning using StorageClasses, which define how storage should be created.
 
 Example: Persistent Volume (PV)
-
+```
 apiVersion: v1
 kind: PersistentVolume
 metadata:
@@ -68,13 +68,13 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   hostPath:
     path: "/mnt/data"
-
+```
 Apply the PV:
-
+```
 kubectl apply -f pv.yaml
-
+```
 Example: Persistent Volume Claim (PVC)
-
+```
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -85,13 +85,13 @@ spec:
   resources:
     requests:
       storage: 1Gi
-
+```
 Apply the PVC:
-
+```
 kubectl apply -f pvc.yaml
-
+```
 Using a PVC in a Pod
-
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -107,15 +107,15 @@ spec:
     - name: storage
       persistentVolumeClaim:
         claimName: my-pvc
-
+```
 Apply the pod:
-
+```
 kubectl apply -f pvc-pod.yaml
-
+```
 Check the PVC status:
-
+```
 kubectl get pvc
-
+```
 4. Persistent Volume Reclaim Policies
 
 Kubernetes provides three reclaim policies for Persistent Volumes:

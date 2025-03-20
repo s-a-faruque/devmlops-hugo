@@ -1,0 +1,11 @@
+{{- if .Params.author }}
+  <p><strong>Author:</strong> {{ .Params.author }}</p>
+{{- end }}
+
+{{- if .Params.author_url }}
+  <p><a href="{{ .Params.author_url }}" target="_blank" rel="noopener">Visit the author's profile</a></p>
+{{- end }}
+
+{{- if .Params.author_bio }}
+  <p><strong>Bio:</strong> {{ .Params.author_bio }}</p>
+{{- end }}

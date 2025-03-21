@@ -1,9 +1,9 @@
 +++
 title = "Simplest Way to Deploy a Web App on Kubernetes (K8s)"
-author = "Safique A Faruque“
+author = "Safique A Faruque"
 date = "2025-03-21"
 description = "A simple two-step guide to deploying a web app on Kubernetes using IBM Cloud."
-tags = ["Kubernetes", "Deployment", "Web App", "Cloud"]
+tags = ["Kubernetes", "Deployment", "Web App", "Cloud", "k8s"]
 categories = ["Tutorial", "Kubernetes"]
 draft = false
 +++
@@ -40,6 +40,7 @@ kubectl expose deployment my-app --type=LoadBalancer --name=my-service
 ```
 This will create a service named my-service that makes your app accessible via a public IP (or load balancer, depending on your cluster setup). Once the service is created, you can access your app through the URL or IP provided by the load balancer.
 
+![Output](OutputHelloWorld.png)
 
 With just these two steps — deploying your app and exposing it as a service — you can easily get your web app running on Kubernetes and accessible via a URL. Whether you're using IBM Cloud or any other cloud provider, this method is quick and effective for quickly testing or deploying simple applications.
 Now, your app is live and accessible for anyone with the right URL!

@@ -8,13 +8,11 @@ categories = ["Tutorial", "Kubernetes"]
 draft = false
 +++
 
-## Simplest Way to Deploy a Web App on Kubernetes (K8s)
-
 If you’re looking to quickly deploy a web app and make it accessible via a URL on Kubernetes (K8s), the process can be incredibly simple. In just two easy steps, you’ll have your app up and running. Here’s a quick guide on how to do it.
 
----
+<!--more-->
 
-### **Step 1: Deploy the App**
+#### **Step 1: Deploy the App**
 
 To get started, you’ll need two things:
 
@@ -32,7 +30,7 @@ Once you’ve got these prerequisites, you can deploy your app using the followi
 kubectl apply -f deployment.yaml
 This command tells Kubernetes to deploy your app as defined in the deployment.yaml file, which should include information about the container image and how to run it within the cluster.
 ```
-### **Step 2: Expose Your App as a Service**
+#### **Step 2: Expose Your App as a Service**
 Now that your app is running inside your Kubernetes cluster, the next step is to expose it so it can be accessed from the web.
 Use the following command to expose your app as a service:
 ```

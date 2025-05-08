@@ -56,7 +56,7 @@
   </head>
 
   {{- $environment := hugo.Environment | default "production" -}}
-  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}} {{ $environment }}">
+  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-white"}} {{ $environment }}">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb1" role="main">

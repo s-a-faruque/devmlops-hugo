@@ -25,40 +25,36 @@ You need answers of these 3 questions
 
 ---
 
-### Q 1: “How Fast Does It Start?”
+#### Q 1: “How Fast Does It Start?”
 
-**Metrics to Track:**
-- **TTFB (Time To First Byte):** How fast your server sends the first byte of data.
-- **FCP (First Contentful Paint):** When the browser displays the first visible element.
-- **LCP (Largest Contentful Paint):** When the main content finishes rendering.
+Metrics to Track:
+- TTFB (Time To First Byte):** How fast your server sends the first byte of data.
+- FCP (First Contentful Paint):** When the browser displays the first visible element.
+- LCP (Largest Contentful Paint):** When the main content finishes rendering.
 
-**Goal:** Make users see something useful — fast.
-
----
-
-### Q 2: “How Quickly Can I Use It?”
-
-**Metrics to Track:**
-- **TTI (Time To Interactive):** When your page is fully usable.
-- **INP (Interaction to Next Paint):** Measures how fast the UI responds to user input.
-- **CLS (Cumulative Layout Shift):** Checks for layout shifts that disrupt user experience.
-
-**Goal:** Make the experience smooth, stable, and frustration-free.
+Goal: Make users see something useful — fast.
 
 ---
 
-### Q 3: “Did It Feel Good Enough to Stay?”
+#### Q 2: “How Quickly Can I Use It?”
 
-**Metrics to Track:**
-- **Time on Page:** Are users spending time reading or interacting?
-- **Bounce Rate:** Are they leaving after just one page?
+Metrics to Track:
+- TTI (Time To Interactive):** When your page is fully usable.
+- INP (Interaction to Next Paint):** Measures how fast the UI responds to user input.
+- CLS (Cumulative Layout Shift):** Checks for layout shifts that disrupt user experience.
 
-**Goal:** Create a delightful experience that keeps users coming back.
-
----
-
-**Pro Tip:** Pair this framework with real monitoring tools like [Google Lighthouse](https://developers.google.com/web/tools/lighthouse), [Web Vitals](https://web.dev/vitals/), or [PageSpeed Insights](https://pagespeed.web.dev/) to get real data and recommendations.
+Goal: Make the experience smooth, stable, and frustration-free.
 
 ---
 
-Now you know why some websites feel faster — and how you can make yours one of them.
+#### Q 3: “Did It Feel Good Enough to Stay?”
+
+Metrics to Track:
+- Time on Page: Are users spending time reading or interacting?
+- Bounce Rate: Are they leaving after just one page? For single page app, monitor the Engagement Rate instead of Bounce Rate
+
+Goal: Create a delightful experience that keeps users coming back.
+
+---
+
+Pro Tip: Pair this framework with real monitoring tools like [Google Lighthouse](https://developers.google.com/web/tools/lighthouse), [Web Vitals](https://web.dev/vitals/), or [PageSpeed Insights](https://pagespeed.web.dev/) to get real data and recommendations.

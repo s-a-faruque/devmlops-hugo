@@ -2,7 +2,7 @@
 title="Website Performance Metrics: A 3-Step Guide"
 date=2025-05-16
 description="Learn how to measure and improve your website's performance with a simple 3-step metric framework: Load Speed, Interactivity, and Engagement."
-tags+["performance", "web metrics", "UX", "SEO"]
+tags=["performance", "web metrics", "UX", "SEO"]
 +++
 
 I was chatting with a friend the other day, and he said, “I think my site is pretty fast.” But then he admitted, “Actually, landing page is fast but other pages, maybe it feels a bit slow.”

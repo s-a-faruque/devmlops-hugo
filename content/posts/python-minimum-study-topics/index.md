@@ -7,10 +7,8 @@ categories = ["programming", "python"]
 author="Safique Faruque"
 +++
 
-# Minimum Python Study Guide
-
 This is a quick-reference guide to Python for beginners and experienced developers who want a fast refresher.
-
+<!--more-->
 ---
 
 ## Data Types

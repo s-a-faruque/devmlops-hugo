@@ -12,6 +12,8 @@ As a developer or QA engineer, you know the frustration of discovering broken PD
 
 Frustrated by this inefficiency, I decided there had to be a better way. What if I could automate the whole process, running tests that checked every PDF link across all sites — reliably, consistently, and with zero manual effort?
 
+<!--more-->
+
 In this article, I’ll walk you through how I built an automated PDF link testing solution using Python’s `pytest`, Playwright for browser automation, and GitLab CI/CD for continuous integration. To make it scalable and easy to maintain, I placed all the testing logic in a separate GitLab project and ran the tests on self-hosted runners, avoiding costly CI minute limits. This setup not only saved me hours of repetitive work but also gave my team quick feedback on link health — no more surprises in production.
 
 If you’re juggling multiple sites or just want a practical example of integrating automated tests in your CI pipelines, this guide is for you.

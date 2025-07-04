@@ -1,7 +1,7 @@
 +++
 title = "Automating PDF Link Testing Across Multiple Sites Using GitLab CI and Playwright"
 date = 2025-07-04T12:00:00Z
-author = "Your Name"
+author = "Safique Ahmed Faruque"
 tags = ["python", "gitlab-ci", "playwright", "automation", "testing"]
 categories = ["devops", "testing"]
 description = "Learn how I automated PDF link testing across multiple sites using a centralized GitLab CI setup, Playwright, pytest, and self-hosted runners."

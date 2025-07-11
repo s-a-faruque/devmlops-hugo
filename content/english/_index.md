@@ -1,11 +1,6 @@
 ---
 banner:
-  title: "Hey, I’m <br/> David Hovitch"
-  description: "Looking for my next opportunity to make a change in digital way. Consetetur sadipscing elitr tempor invidunt utlabore."
-  image: "images/banner.jpg"
-  button:
-    enable : true
-    label : "get a quote"
-    link : "contact/"
-
+  title: "Hey, I’m <br/> Safique Faruque"
+  description: "Passionate about building teams and establishing processes for high perferming web services."
+  image: "images/HeadShot-Safique.jpeg"
 ---

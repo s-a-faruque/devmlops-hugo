@@ -1,29 +1,19 @@
 ---
 title: "About"
-image: "images/about.jpg"
+image: "images/HeadShot-Safique.jpeg"
 description: "this is meta description"
 layout: "about"
 button: "read more"
 draft: false
 ---
 
-## Hi,I’m Linda McCoy Specilized In Blog Writing And Collecting
+## Hi,I’m Safique Faruque Specilized In DevOps and Software Development
 
-Leverage agile frameworks to provide a robust Hugo Sousa synopsis for high level
-overviews. Iterative approaches to corporate strategy foster collaborative thinking to
-further the overall value proposition. Organically grow the holistic world view of
-disruptive innovation via workplace diversity and empowerment. 
+Technical Architect with 17 years of diverse experience spanning startups to government sectors. Proven track record in building and leading high-performing teams, delivering robust, secure, and scalable applications. Skilled in designing architecture that balances innovation with practical business needs, ensuring high-quality products aligned with strategic goals. Expertise includes driving end-to-end software development, fostering cross-functional collaboration, and implementing secure, scalable solutions that meet complex requirements across industries.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of
-the day, going forward, a new normal that has evolved from generation X is on the
-runway heading towards a streamlined cloud solution. User generated content in real-time
-will have multiple touchpoints for offshoring.
+Let’s connect to discuss how I can help architect your next high-impact project.
 
-Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize
-scalable metrics whereas proactive e-services. Seamlessly empower fully researched
-growth strategies and interoperable internal or “organic” sources.
-
-### Our Skill
+<!-- ### Our Skill
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
 ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
 accusam et justo duo dolores et ea rebum.
@@ -45,4 +35,4 @@ Holistically foster superior methodologies without market-driven best practices.
 
 Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-
 business applications through revolutionary catalysts for change. Seamlessly underwhelm
-optimal testing procedures whereas bricks-and-clicks processes.
+optimal testing procedures whereas bricks-and-clicks processes. -->

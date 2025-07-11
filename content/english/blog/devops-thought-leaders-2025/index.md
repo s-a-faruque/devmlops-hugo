@@ -7,7 +7,7 @@ tags = ["DevOps", "DevOps Thought Leaders", "CI/CD", "Kubernetes", "Cloud Comput
 categories = ["DevOps", "Tech Leaders", "Software Development"]
 keywords = ["top DevOps experts", "best DevOps influencers", "DevOps leaders to follow", "Kubernetes experts", "CI/CD thought leaders"]
 slug = "devops-thought-leaders-2024"
-image = "images/devops-thought-leaders-2024.png"
+image = "images/blog/DevOps-thought-leaders.png"
 author = "Safique A Faruque"
 +++
 

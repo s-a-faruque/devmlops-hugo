@@ -8,7 +8,7 @@ logo_darkmode = "images/logo-white.png"
 # Note: logo_width is not work with .svg file
 logo_width = "120px"
 # logo text will only show when logo is missing.
-logo_text = "iWriter"
+logo_text = "Dev ML Ops"
 
 # navbar fixed to top
 navbar_fixed = true
@@ -41,8 +41,8 @@ theme_default = "system" # available options [light/dark/system]
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Hugo", "Blog", "Statichunt", "iWriter"]
-description = "iWriter is a blog template based on Bootstrap and powered by Hugo"
-author = "Statichunt"
+description = "A developer-focused blog on MLOps, automation, and AI infrastructure."
+author = "Safique Ahmed Faruque"
 image = "images/og-image.jpg"      # this image will be used as fallback if a page has no image of its own
 
 # Preloader

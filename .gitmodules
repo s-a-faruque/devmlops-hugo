@@ -16,3 +16,6 @@
 [submodule "themes/iwriter"]
 	path = themes/iwriter
 	url = https://github.com/statichunt/iwriter-hugo
+[submodule "themes/iWriter-hugo"]
+	path = themes/iWriter-hugo
+	url = https://github.com/statichunt/iWriter-hugo.git

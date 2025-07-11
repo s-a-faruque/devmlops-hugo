@@ -28,8 +28,8 @@ netlify = true # set to false if using formspree.io
 # contact form action
 contact_form_action = "#"
 # copyright
-theme_copyright = true
-copyright = "Copyright by your company"
+theme_copyright = false
+copyright = "Copyright by Dev ML Ops"
 
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX

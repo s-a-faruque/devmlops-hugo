@@ -1,6 +1,5 @@
 ---
 title: "About"
-image: "images/HeadShot-Safique.jpeg"
 description: "this is meta description"
 layout: "about"
 button: "read more"

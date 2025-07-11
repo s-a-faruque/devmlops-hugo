@@ -3,7 +3,7 @@ date: "2025-03-17"
 title: "How to Build an AI-Based Search System"
 image: "images/blog/ai-generated-brain.png"
 categories: ["AI", "Search Systems", "Machine Learning"]
-tags = ["AI Search", "NLP", "Elasticsearch", "Semantic Search"]
+tags: ["AI Search", "NLP", "Elasticsearch", "Semantic Search"]
 draft: false
 ---
 

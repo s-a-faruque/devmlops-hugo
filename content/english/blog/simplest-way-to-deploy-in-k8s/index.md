@@ -6,6 +6,7 @@ description = "A simple two-step guide to deploying a web app on Kubernetes usin
 tags = ["Kubernetes", "Deployment", "Web App", "Cloud", "k8s"]
 categories = ["Tutorial", "Kubernetes"]
 draft = false
+image = "images/blog/ClusterDetails.png"
 +++
 
 If you’re looking to quickly deploy a web app and make it accessible via a URL on Kubernetes (K8s), the process can be incredibly simple. In just two easy steps, you’ll have your app up and running. Here’s a quick guide on how to do it.

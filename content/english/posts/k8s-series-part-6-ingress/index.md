@@ -5,6 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "Networking", "Ingress", "Service"]
 draft = false
+image = "images/blog/devops.jpg"
 description = "Learn how networking works in Kubernetes, including Services, Ingress Controllers, and how to expose applications."
 +++
 

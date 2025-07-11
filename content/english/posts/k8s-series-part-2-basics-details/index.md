@@ -5,6 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "DevOps", "Pods", "Deployments", "ReplicaSets"]
 draft = false
+image = "images/blog/devops.jpg"
 description = "Learn about Kubernetes Pods, Deployments, and ReplicaSets, their roles, and how they work together in container orchestration."
 +++
 

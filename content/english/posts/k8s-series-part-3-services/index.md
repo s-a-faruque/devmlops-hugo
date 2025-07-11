@@ -5,6 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "Services", "Networking", "DevOps"]
 draft = false
+image = "images/blog/devops.jpg"
 description = "Learn how Kubernetes Services enable communication between pods, external users, and other applications using ClusterIP, NodePort, LoadBalancer, and ExternalName."
 +++
 

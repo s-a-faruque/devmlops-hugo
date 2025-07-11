@@ -5,6 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "ConfigMaps", "DevOps", "Secrets", "Configuration Management"]
 draft = false
+image = "images/blog/devops.jpg"
 description = "Learn how to manage configuration data securely in Kubernetes using ConfigMaps and Secrets."
 +++
 

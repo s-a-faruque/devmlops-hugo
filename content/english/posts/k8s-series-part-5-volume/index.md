@@ -6,6 +6,7 @@ categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "Storage", "Volumes", "Persistent Volumes"]
 draft = false
 description = "Learn how Kubernetes handles storage using Volumes, Persistent Volumes (PVs), and Persistent Volume Claims (PVCs)."
+image = "images/blog/devops.jpg"
 +++
 
 Containers are ephemeral by nature, meaning data stored inside them disappears when a pod is restarted. To persist data in Kubernetes, we use Volumes and Persistent Volumes.

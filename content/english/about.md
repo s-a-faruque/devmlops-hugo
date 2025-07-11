@@ -6,7 +6,7 @@ button: "read more"
 draft: false
 ---
 
-## Hi,I’m Safique Faruque Specilized In DevOps and Software Development
+## Hi, I’m Safique Faruque
 
 Technical Architect with 17 years of diverse experience spanning startups to government sectors. Proven track record in building and leading high-performing teams, delivering robust, secure, and scalable applications. Skilled in designing architecture that balances innovation with practical business needs, ensuring high-quality products aligned with strategic goals. Expertise includes driving end-to-end software development, fostering cross-functional collaboration, and implementing secure, scalable solutions that meet complex requirements across industries.
 

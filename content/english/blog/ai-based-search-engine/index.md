@@ -1,11 +1,11 @@
-+++
-title = "How to Build an AI-Based Search System"
-date = "2025-03-17"
-author = "Safique"
-categories = ["AI", "Search Systems", "Machine Learning"]
+---
+date: "2025-03-17"
+title: "How to Build an AI-Based Search System"
+image: "images/blog/ai-generated-brain.png"
+categories: ["AI", "Search Systems", "Machine Learning"]
 tags = ["AI Search", "NLP", "Elasticsearch", "Semantic Search"]
-draft = false
-+++
+draft: false
+---
 
 
 In today’s digital landscape, AI-powered search systems are transforming how users interact with vast amounts of data. Whether you’re building a search engine for a website, an enterprise knowledge base, or an e-commerce platform, AI can enhance search relevance, understand natural language queries, and provide personalized results. This article explores the steps to build an AI-based search system.

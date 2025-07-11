@@ -13,3 +13,6 @@
 [submodule "iwriter-hugo"]
 	path = iwriter-hugo
 	url = https://github.com/statichunt/iwriter-hugo
+[submodule "themes/iwriter"]
+	path = themes/iwriter
+	url = https://github.com/statichunt/iwriter-hugo

@@ -1,7 +1,7 @@
 baseURL = 'https://devmlops-hugo.pages.dev/'
 languageCode = 'en-us'
 title = 'Dev + ML + Ops'
-theme = 'ananke'
+theme = 'iwriter'
 ga4_id = 'G-JBCMXLR46W'
 [menu]
 

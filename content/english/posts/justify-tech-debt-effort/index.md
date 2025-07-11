@@ -6,6 +6,7 @@ description = "A hypothesis to determine the business value of working on tech d
 categories = ["Software Development", "Agile", "Technical Debt"]
 tags = ["Tech Debt", "Agile", "Sprint Planning", "Business Value", "Software Metrics"]
 draft = false
+image = "images/blog/tech-debt.jpg"
 +++
 
 

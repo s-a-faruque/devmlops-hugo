@@ -5,6 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "RBAC", "Security", "K8s"]
 draft = false
+image = "images/blog/devops.jpg"
 description = "Learn how Kubernetes RBAC manages access to resources, with examples of roles and permissions."
 +++
 

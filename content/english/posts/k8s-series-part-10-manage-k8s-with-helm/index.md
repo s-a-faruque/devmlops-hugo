@@ -5,6 +5,7 @@ author = "Safique"
 description = "Learn about Helm charts, their components, and how to use them for Kubernetes deployments with practical examples."
 tags = ["Helm", "Kubernetes", "DevOps", "Deployment"]
 categories = ["DevOps", "Kubernetes"]
+image = "images/blog/devops.jpg"
 draft = false
 +++
 

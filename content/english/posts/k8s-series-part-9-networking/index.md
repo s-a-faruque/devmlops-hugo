@@ -5,6 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "Networking", "Services", "Ingress", "Network Policies"]
 draft = false
+image = "images/blog/devops.jpg"
 description = "Understand Kubernetes networking, including Services, Ingress, and Network Policies."
 +++
 

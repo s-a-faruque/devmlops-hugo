@@ -5,6 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "Monitoring", "Logging", "K8s"]
 draft = false
+image = "images/blog/devops.jpg"
 description = "Explore how to implement Kubernetes monitoring and logging with popular tools like Prometheus, Grafana, and ELK stack."
 +++
 

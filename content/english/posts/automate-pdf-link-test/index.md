@@ -6,6 +6,7 @@ tags = ["python", "gitlab-ci", "playwright", "automation", "testing"]
 categories = ["devops", "testing"]
 description = "Learn how I automated PDF link testing across multiple sites using a centralized GitLab CI setup, Playwright, pytest, and self-hosted runners."
 draft = false
+image = "images/blog/automated-test.jpg"
 +++
 
 As a developer or QA engineer, you know the frustration of discovering broken PDF links after a site update — especially when those links span multiple websites. I remember spending hours manually checking PDFs across five different sites, copying and pasting URLs into a browser, hoping I wouldn’t miss any. Each time a site updated, the tedious routine repeated itself, eating into time better spent building new features.

@@ -1,19 +1,18 @@
 +++
-title = "Automating PDF Link Testing Across Multiple Sites Using GitLab CI and Playwright"
+title = "Stop Wasting Time Checking PDFs: Automate Link Testing with GitLab CI + Playwright"
 date = 2025-07-04T12:00:00Z
 author = "Safique Ahmed Faruque"
 tags = ["python", "gitlab-ci", "playwright", "automation", "testing"]
 categories = ["devops", "testing"]
-description = "Learn how I automated PDF link testing across multiple sites using a centralized GitLab CI setup, Playwright, pytest, and self-hosted runners."
+description = "Learn how I automated PDF link testing across multiple sites using a GitLab CI setup, Playwright and Pytest."
 draft = false
 image = "images/blog/automated-test.png"
 +++
 
 As a developer or QA engineer, you know the frustration of discovering broken PDF links after a site update — especially when those links span multiple websites. I remember spending hours manually checking PDFs across five different sites, copying and pasting URLs into a browser, hoping I wouldn’t miss any. Each time a site updated, the tedious routine repeated itself, eating into time better spent building new features.
+<!--more-->
 
 Frustrated by this inefficiency, I decided there had to be a better way. What if I could automate the whole process, running tests that checked every PDF link across all sites — reliably, consistently, and with zero manual effort?
-
-<!--more-->
 
 In this article, I’ll walk you through how I built an automated PDF link testing solution using Python’s `pytest`, Playwright for browser automation, and GitLab CI/CD for continuous integration. To make it scalable and easy to maintain, I placed all the testing logic in a separate GitLab project and ran the tests on self-hosted runners, avoiding costly CI minute limits. This setup not only saved me hours of repetitive work but also gave my team quick feedback on link health — no more surprises in production.
 

@@ -18,58 +18,28 @@ A Git Commit Convention provides a standardized way to write commit messages, ma
 Why Follow a Git Commit Convention?
 
 Using a commit convention brings several benefits:
-	•	Clarity: Well-structured messages help team members quickly understand the changes.
-	•	Consistency: A standard format ensures uniformity across the repository.
-	•	Automation: Tools like commit linting, changelog generation, and CI/CD pipelines can leverage structured commits.
-	•	Better History: Easier debugging and version tracking.
+* Clarity: Well-structured messages help team members quickly understand the changes.
+* Consistency: A standard format ensures uniformity across the repository.
+* Automation: Tools like commit linting, changelog generation, and CI/CD pipelines can leverage structured commits.
+* Better History: Easier debugging and version tracking.
 
-Common Git Commit Conventions
+I think this website wrote the most convincing way on how and why we should commit effectively https://cbea.ms/git-commit/.
 
-1. Conventional Commits
+The website https://cbea.ms/git-commit/ presents a detailed guide on how to write effective Git commit messages, emphasizing that a good commit message improves collaboration and project maintainability. The core advice is summarized in seven rules:
 
-Conventional Commits is a widely adopted standard that structures commit messages using a specific format:
+1. Separate the subject line from the body with a blank line.
+2. Limit the subject line to 50 characters.
+3. Capitalize the subject line.
+4. Do not end the subject line with a period.
+5. Use the imperative mood in the subject line (e.g., "Fix bug" instead of "Fixed bug").
+6. Wrap the body text at 72 characters to improve readability.
+7. Use the body to explain *what* and *why* the change was made, not *how*.
 
-<type>(<scope>): <subject>
+The guide explains that while the diff shows what changed, the commit message is the best place to explain why the change was made, providing context for current and future developers. It advocates consistency and clarity in commit messages as a mark of good collaboration and project health.
 
-	•	<type>: Specifies the nature of the change (e.g., feat, fix, docs).
-	•	<scope> (optional): Indicates the part of the project affected.
-	•	<subject>: A brief summary of the change.
+Additional recommendations include writing concise and atomic commits, optionally including metadata like issue tracker IDs, and using tools and templates to enforce this structure. Adhering to these conventions unlocks the full utility of Git history commands like `git log`, `git blame`, and `git revert`, making code review and maintenance easier.
 
-Example Commit Messages:
-
-feat(auth): add Google OAuth support
-fix(ui): resolve button alignment issue
-docs(readme): update installation instructions
-
-Common Types:
-
-Type	Purpose
-feat	Introduces a new feature
-fix	Fixes a bug
-docs	Updates documentation
-style	Changes that do not affect code functionality (e.g., formatting, linting)
-refactor	Code restructuring without changing functionality
-test	Adds or modifies tests
-chore	Maintenance tasks (e.g., updating dependencies)
-perf	Performance improvements
-
-2. Angular Commit Convention
-
-The Angular Commit Convention follows a similar structure and is the foundation of Conventional Commits. It has an additional body and footer section for detailed descriptions:
-
-<type>(<scope>): <subject>
-
-<body>
-
-<footer>
-
-Example:
-
-feat(auth): implement password reset
-
-Users can now reset their passwords using a verification code sent via email.
-
-BREAKING CHANGE: This removes the old password recovery method.
+In essence, the guide promotes commit messages as a communication tool that should be clear, consistent, and thoughtful, rather than ad hoc or verbose. This approach enhances both the immediate and long-term productivity of development teams.
 
 Conclusion
 

@@ -61,8 +61,9 @@ The `.gitlab-ci.yml` defines jobs for each site, passing the appropriate URL fil
 #### 4. Self-Hosted Runners
 
 To avoid consuming limited GitLab shared runner minutes, I installed self-hosted GitLab runners that execute these jobs on my own servers, giving me full control and no time limits.
-images/blog/automated_test_pdf_link_check_gitlab_job.png
+
 ![GitLab Job](images/blog/automated_test_pdf_link_check_gitlab_job.png)
+
 ---
 
 ## Implementation Details

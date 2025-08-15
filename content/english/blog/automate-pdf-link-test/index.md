@@ -20,7 +20,7 @@ If you’re juggling multiple sites or just want a practical example of integrat
 
 ---
 
-## Tools and Technology Stack
+### Tools and Technology Stack
 
 * **Pytest:** Python’s robust testing framework to write flexible tests.
 * **Playwright:** Browser automation library for simulating user actions and checking PDFs.
@@ -30,7 +30,7 @@ If you’re juggling multiple sites or just want a practical example of integrat
 
 ---
 
-## The Challenge
+### The Challenge
 
 I manage 5+ sites, each with a large list of PDF URLs. I needed a way to:
 
@@ -41,24 +41,24 @@ I manage 5+ sites, each with a large list of PDF URLs. I needed a way to:
 
 ---
 
-## Solution Overview
+### Solution Overview
 
 ![Automated Test PDF Links Flow Diagram](images/blog/automated_test_pdf_link_check.jpg)
 
 
-### 1. Centralized Test Repository
+#### 1. Centralized Test Repository
 
 I created a **dedicated GitLab project** containing all test code, URL lists, and CI configurations. This acts as a **single source of truth** for testing across sites.
 
-### 2. Dynamic URL Loading
+#### 2. Dynamic URL Loading
 
 Using `pytest`'s CLI options and hooks, the tests load URLs from a file passed as a parameter, so one test script can run against any site by simply changing the URL list.
 
-### 3. GitLab CI Jobs per Site
+#### 3. GitLab CI Jobs per Site
 
 The `.gitlab-ci.yml` defines jobs for each site, passing the appropriate URL file as a test argument.
 
-### 4. Self-Hosted Runners
+#### 4. Self-Hosted Runners
 
 To avoid consuming limited GitLab shared runner minutes, I installed self-hosted GitLab runners that execute these jobs on my own servers, giving me full control and no time limits.
 
@@ -66,7 +66,7 @@ To avoid consuming limited GitLab shared runner minutes, I installed self-hosted
 
 ## Implementation Details
 
-### Parametrizing URLs in Pytest
+#### Parametrizing URLs in Pytest
 
 In `conftest.py`, I added the following:
 
@@ -97,7 +97,7 @@ def pytest_generate_tests(metafunc):
         metafunc.parametrize("url", urls)
 ```
 
-### Example Test Function
+#### Example Test Function
 
 ```python
 def test_pdf_links(url):
@@ -105,7 +105,7 @@ def test_pdf_links(url):
     assert url.startswith("https://"), f"Invalid URL: {url}"
 ```
 
-### GitLab CI Configuration
+#### GitLab CI Configuration
 
 ```yaml
 stages:
@@ -140,13 +140,13 @@ test_siteB:
       - report_siteB.xml
 ```
 
-### Using Self-Hosted Runners
+#### Using Self-Hosted Runners
 
 I registered a runner on my own infrastructure with the tag `self-hosted`. This allows GitLab to assign these test jobs to my machines, bypassing shared runner limits and enabling a stable, configurable environment.
 
 ---
 
-## Benefits of This Approach
+### Benefits of This Approach
 
 * **Centralized management:** One repo holds all test logic and URLs, simplifying updates and adding new sites.
 * **Flexible and scalable:** New sites require only a URL file and a CI job.

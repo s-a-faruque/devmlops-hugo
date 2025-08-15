@@ -134,10 +134,3 @@ Here’s the distilled list of **strong picks** — the non-negotiables for beco
 
 **Why this matters:**
 This list is **what hiring managers actually look for today**. Focus on these skills, and you’ll be prepared to confidently step into modern frontend roles.
-
----
-
-If you want, I can also **format this for LinkedIn carousel style** — with each skill as a slide plus a visual icon, so it’s ready to post and share. It makes your research visually appealing and more likely to get engagement.
-
-Do you want me to do that?
-

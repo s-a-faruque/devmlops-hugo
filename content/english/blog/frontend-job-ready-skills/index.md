@@ -15,116 +15,116 @@ Here’s the distilled list of **strong picks** — the non-negotiables for beco
 
 ---
 
-### **1. React (Primary Framework)**
+#### **1. React (Primary Framework)**
 
 * Hooks, lifecycle methods, component design
 * Context API for state sharing
 
 ---
 
-### **2. TypeScript**
+#### **2. TypeScript**
 
 * Type safety for scalable applications
 
 ---
 
-### **3. Build Tools & Bundlers**
+#### **3. Build Tools & Bundlers**
 
 * Webpack, Vite, or esbuild
 
 ---
 
-### **4. Unit Testing**
+#### **4. Unit Testing**
 
 * Jest, React Testing Library
 
 ---
 
-### **5. State Management**
+#### **5. State Management**
 
 * Redux Toolkit, plus awareness of lighter alternatives like Zustand or Jotai
 
 ---
 
-### **6. HTML5**
+#### **6. HTML5**
 
 * Semantic markup, forms, media, accessibility basics
 
 ---
 
-### **7. CSS / SCSS**
+#### **7. CSS / SCSS**
 
 * Grid, Flexbox, responsive layouts
 
 ---
 
-### **8. Performance Profiling**
+#### **8. Performance Profiling**
 
 * React Profiler, Lighthouse, Google PageSpeed
 
 ---
 
-### **9. UI Frameworks**
+#### **9. UI Frameworks**
 
 * Material UI, Tailwind, Bootstrap, Ant Design
 
 ---
 
-### **10. API Communication**
+#### **10. API Communication**
 
 * REST & GraphQL fundamentals
 
 ---
 
-### **11. Caching & Headers**
+#### **11. Caching & Headers**
 
 * cache-control, ETag
 
 ---
 
-### **12. Web Storage**
+#### **12. Web Storage**
 
 * Cookies, LocalStorage, IndexedDB
 
 ---
 
-### **13. Progressive Web Apps (PWA)**
+#### **13. Progressive Web Apps (PWA)**
 
 * Service workers, offline caching
 
 ---
 
-### **14. Secondary Frameworks**
+#### **14. Secondary Frameworks**
 
 * Angular, Vue, Svelte for ecosystem awareness
 
 ---
 
-### **15. Data Visualization & Animation**
+#### **15. Data Visualization & Animation**
 
 * D3.js, GSAP, Framer Motion, LottieFiles
 
 ---
 
-### **16. NoSQL Basics**
+#### **16. NoSQL Basics**
 
 * MongoDB for simple frontend projects
 
 ---
 
-### **17. CI/CD Basics**
+#### **17. CI/CD Basics**
 
 * GitHub Actions, GitLab CI, Vercel deployments
 
 ---
 
-### **18. Git Essentials**
+#### **18. Git Essentials**
 
 * Commit messages, squash, rebase, resolving conflicts
 
 ---
 
-### **19. JavaScript ES6+**
+#### **19. JavaScript ES6+**
 
 * Modern syntax, object handling, hoisting, closures
 

@@ -43,6 +43,9 @@ I manage 5+ sites, each with a large list of PDF URLs. I needed a way to:
 
 ## Solution Overview
 
+![Automated Test PDF Links Flow Diagram](images/blog/automated_test_pdf_link_check.jpg)
+
+
 ### 1. Centralized Test Repository
 
 I created a **dedicated GitLab project** containing all test code, URL lists, and CI configurations. This acts as a **single source of truth** for testing across sites.

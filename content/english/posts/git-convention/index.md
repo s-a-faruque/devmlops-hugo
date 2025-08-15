@@ -2,14 +2,16 @@
 title = "Git Commit Convention: A Guide to Writing Meaningful Commit Messages"
 date = 2025-03-06T07:07:07+01:00
 draft = false
-author = "Safique A Faruque"
-description = "Learn how to structure your Git commit messages using conventions like Conventional Commits and Angular Commit Convention consistency, and automation."
+author = "Safique A. Faruque"
+description = "Learn how to structure your Git commit messages using conventions like Conventional Commits and Angular Commit Convention, ensuring consistency and enabling automation."
 tags = ["git", "commit-convention", "best-practices", "development"]
 categories = ["Development", "Version Control"]
-keywords = ["free hosting platforms", "best static site hosting", "GitHub Pages tutorial", "Vercel vs Cloudflare Pages"]
+keywords = ["git commit conventions", "meaningful commit messages", "Conventional Commits", "Angular Commit Convention"]
 slug = "git-commit-convention"
 canonicalURL = "https://devmlops.com/git-commit-convention"
+image = "images/blog/git-conventional-commits.png"
 +++
+
 
 In software development, version control is crucial for tracking changes and collaborating effectively. Git, one of the most widely used version control systems, allows developers to commit changes with messages that describe what was modified. However, without a proper structure, commit messages can become inconsistent, unclear, or even useless.
 

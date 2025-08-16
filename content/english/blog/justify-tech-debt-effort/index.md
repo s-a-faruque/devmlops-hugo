@@ -10,7 +10,7 @@ image = "images/blog/tech-debt.jpg"
 +++
 
 
-It’s a very common scenario — The product owner chooses new features regularly and seldom picks tech debt. In the end, the crashes have to be fixed, and the tech debt is growing. Those problems are slowing down testing and development._
+It’s a very common scenario — The product owner chooses new features regularly and seldom picks tech debt. In the end, the crashes have to be fixed, and the tech debt is growing. Those problems are slowing down testing and development.
 
 _Besides, the team have new great ideas to optimize the software, but the product owner has difficulty to estimate their values, and priorities them._
 

@@ -1,7 +1,7 @@
 +++
 title = "Understanding Event-Based Architecture"
 date = 2025-03-17T14:00:00
-draft = false
+draft = true
 author = "Safique"
 tags = ["event-based architecture", "software design", "microservices", "scalability", "real-time processing"]
 categories = ["software architecture", "programming", "tech"]

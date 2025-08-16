@@ -75,8 +75,3 @@ Vercel is a great option for hosting static and frontend frameworks like Next.js
 
 Each of these platforms provides a reliable way to host your website for free. Whether you choose Cloudflare Pages for its global CDN, GitHub Pages for its simplicity, GitLab Pages for CI/CD integration, or Vercel for frontend optimization, you can easily get your site online without spending a dime.
 
-
-
-
-
-

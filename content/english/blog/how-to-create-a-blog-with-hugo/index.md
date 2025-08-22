@@ -8,7 +8,7 @@ tags = ["Hugo", "Static Site", "Blogging", "Web Development", "Tutorial"]
 categories = ["Web Development", "Static Site Generators"]
 slug = "create-a-blog-with-hugo"
 keywords = ["Hugo tutorial", "Hugo blog setup", "Hugo themes", "Hugo deployment", "Static site generator"]
-featured_image = "/images/blog/hugo.png"
+featured_image = "images/blog/hugo.png"
 +++
 
 Hugo is a fast and flexible static site generator written in Go, perfect for creating blogs and websites. This guide will walk you through setting up a blog with Hugo, step by step.

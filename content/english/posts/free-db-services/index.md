@@ -8,6 +8,7 @@ author_bio = "Safique is a passionate writer who loves coding and technology."
 tags = ["Supabase", "Neon", "Xata", "Vercel Free DB", "database services", "serverless", "free databases"]
 categories = ["software", "database", "technology"]
 description = "A guide to four popular free database services—Supabase, Neon, Xata, and Vercel Free DB—highlighting their features, free tiers, and use cases."
+image = "images/blog/datacentre.jpg"
 +++
 
 

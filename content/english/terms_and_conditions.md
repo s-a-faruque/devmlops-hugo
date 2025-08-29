@@ -1,7 +1,7 @@
 ---
 title: "Terms and Conditions"
 description: "this is meta description"
-layout: "about"
+layout: "terms-and-conditions"
 button: "read more"
 draft: false
 ---

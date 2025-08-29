@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 description: "this is meta description"
-layout: "about"
+layout: "contact"
 button: "read more"
 draft: false
 ---

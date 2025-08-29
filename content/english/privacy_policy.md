@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 description: "this is meta description"
-layout: "about"
+layout: "privacy-policy"
 button: "read more"
 draft: false
 ---

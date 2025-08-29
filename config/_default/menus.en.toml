@@ -27,7 +27,7 @@ url = "terms-and-conditions/"
 weight = 5
 
 [[main]]
-name = "Contact"
-url = "contact/"
+name = "Contact Me"
+url = "contact-me/"
 weight = 6
 

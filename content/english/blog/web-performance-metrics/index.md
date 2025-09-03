@@ -17,6 +17,8 @@ The problem? We don’t really know how our site is performing until we dig into
 
 When I mentioned metrics, he immediately thought of Google PageSpeed Insights. You know—the one with all those numbers and confusing terms.
 
+![Discussion on web performance](images/blog/discussion.jpeg)
+
 Suddenly, he was overwhelmed by metrics like LCP, FCP, CLS, and a bunch of scores that didn’t really make sense at first glance.
 
 That’s exactly the problem—so many get stuck trying to decode these tools instead of focusing on what really matters: how fast your visitors actually feel your site is.

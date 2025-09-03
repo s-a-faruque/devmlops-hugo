@@ -5,6 +5,7 @@ description="Learn how to measure and improve your website's performance with a 
 tags=["performance", "web metrics", "UX", "SEO"]
 draft = false
 author = "Safique A. Faruque"
+image = "images/blog/webperformance.jpeg"
 +++
 
 I was chatting with a friend the other day, and he said, “I think my site is pretty fast.” But then he admitted, “Actually, landing page is fast but other pages, maybe it feels a bit slow.”

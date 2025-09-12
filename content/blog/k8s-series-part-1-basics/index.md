@@ -5,7 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "Architecture"]
 draft = false
-image = "images/blog/devops.jpg"
+image = "images/blog/k8s-arch.jpeg"
 description = "A deep dive into Kubernetes architecture, including Master and Worker nodes, API Server, Scheduler, and more."
 +++
 

@@ -5,7 +5,7 @@ author = "Safique"
 categories = ["Kubernetes"]
 tags = ["Kubernetes", "K8s", "StatefulSets", "DaemonSets", "Workloads"]
 draft = false
-image = "images/blog/k8s-daemonset.jpg"
+image = "images/blog/k8s-daemonset.jpeg"
 description = "Learn how Kubernetes manages stateful applications with StatefulSets and ensures node-specific workloads using DaemonSets."
 +++
 

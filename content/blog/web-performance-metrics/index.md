@@ -3,6 +3,7 @@ title="Website Performance Metrics: A 3-Step Guide"
 date=2025-05-16
 description="Learn how to measure and improve your website's performance with a simple 3-step metric framework: Load Speed, Interactivity, and Engagement."
 tags=["performance", "web metrics", "UX", "SEO"]
+categories = ["web metrics"]
 draft = false
 author = "Safique A. Faruque"
 image = "images/blog/webperformance.jpeg"

@@ -1,1 +1,16 @@
-Cookie Consent
+<div id="cookie-banner" style="display: none; position: fixed; bottom: 20px; right: 20px; background: #fff; border: 1px solid #ccc; padding: 15px; z-index: 1000; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 300px; border-radius: 8px;">
+    <p style="margin: 0 0 10px; font-size: 14px; color: #333;">We use cookies to improve your experience (Google Analytics). By continuing, you agree to our use of cookies.</p>
+    <button id="accept-cookies" style="background: #000; color: #fff; border: none; padding: 5px 15px; cursor: pointer; border-radius: 4px;">Got it!</button>
+</div>
+
+<script>
+    (function() {
+        if (!localStorage.getItem('cookie-accepted')) {
+            document.getElementById('cookie-banner').style.display = 'block';
+        }
+        document.getElementById('accept-cookies').addEventListener('click', function() {
+            localStorage.setItem('cookie-accepted', 'true');
+            document.getElementById('cookie-banner').style.display = 'none';
+        });
+    })();
+</script>
